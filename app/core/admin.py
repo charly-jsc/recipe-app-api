@@ -18,7 +18,7 @@ class UserAdmin(BaseUserAdmin):
         (_('Permissions'), {
             'fields': ('is_active', 'is_staff', 'is_superuser')
         }),
-        (_('Important dayes'), {
+        (_('Important dates'), {
             'fields': ('last_login',)
         })
     )
